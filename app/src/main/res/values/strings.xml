@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Atividade4</string>
+    <string name="txt_cadastro_de_novo_aluno">Cadastro de Novo Aluno</string>
+    <string name="txt_digite_o_nome_do_aluno">Digite o nome do aluno</string>
+    <string name="txt_digite_o_email_o_do_aluno">Digite o email do aluno</string>
+    <string name="txt_btn_cadastrar">Cadastrar</string>
+    <string name="txt_cadastrado">Dados cadastrados</string>
+    <string name="txt_masculino">Masculino</string>
+    <string name="txt_feminino">feminino</string>
+    <string name="txt_CNH">Sim!</string>
+    <string name="txt_CNH2">Possui CNH?</string>
+    <string name="txt_salvar">Salvar dados!</string>
+    <string name="txt_interno">Interno</string>
+    <string name="txt_externo">Externo</string>
+</resources>

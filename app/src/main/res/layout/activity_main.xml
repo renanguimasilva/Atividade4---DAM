@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txt_cadastro_de_novo_aluno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="@string/txt_digite_o_nome_do_aluno" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="@string/txt_digite_o_email_o_do_aluno" />
+
+    <RadioGroup
+        android:id="@+id/rbSexo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/txt_masculino" />
+
+        <RadioButton
+            android:id="@+id/rbFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/txt_feminino" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txt_CNH2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <CheckBox
+        android:id="@+id/cbCNH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_CNH" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txt_salvar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <RadioGroup
+        android:id="@+id/rbSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RadioButton
+            android:id="@+id/rbInterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_interno" />
+
+        <RadioButton
+            android:id="@+id/rbExterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_externo" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn_cadastrar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/txt_cadastrado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/txtResultadoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtResultadoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtResultadoSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtResultadoCnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
